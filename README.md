@@ -1,4 +1,4 @@
-<h3>Docker and Docker Compose Example.<h3>
+<h3>Docker and Docker Compose Example.</h3>
 
 2 Microservices (hello and bye) that publish 2 services (/hello and /bye) <br>
 Docker Files are created in order to generate images bye:<br>
