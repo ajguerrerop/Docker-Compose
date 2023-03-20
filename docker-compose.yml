@@ -1,0 +1,25 @@
+version: '2'
+services:
+    helloserver:
+        container_name: helloserver
+        build:
+            context: Hello_Server
+            dockerfile: Dockerfile
+        image: helloserver:latest
+        ports:
+            - 18888:8080
+        networks:
+            - spring-cloud-network
+    byeserver:
+        container_name: byeserver
+        build:
+            context: Bye_Server
+            dockerfile: Dockerfile
+        image: byeserver:latest
+        ports:
+            - 19999:8081
+        networks:
+            - spring-cloud-network
+networks:
+    spring-cloud-network:
+        driver: bridge
