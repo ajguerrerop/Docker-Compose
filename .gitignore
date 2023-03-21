@@ -12,3 +12,5 @@ Hello_Server/target/classes/com/gpalex/helloserver/HelloServerApplication.class
 Hello_Server/target/maven-archiver/pom.properties
 Hello_Server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 Hello_Server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+.vscode/settings.json
+.gitignore
