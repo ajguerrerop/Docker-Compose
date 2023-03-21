@@ -2,8 +2,8 @@
 
 2 Microservices (hello and bye) that publish 2 services (/hello and /bye) <br>
 Docker Files are created in order to generate images bye:<br>
-docker build -pXXXX/8080 helloserver:latest<br>
-docker build -pXXXX/8081 byeserver:latest.<br>
+docker build --tag=helloserver:latest .<br>
+docker build --tag=byeserver:latest .<br>
 
 In order to execute docker-compose <br>
 docker-compose up -- build<br>
